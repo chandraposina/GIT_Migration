@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <webLinks>
+        <fullName>Create_Article</fullName>
+        <availability>online</availability>
+        <description>Create a Knowledge Article for Case in Context.</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Article</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/support/console/30.0/integration.js&quot;)} 
+var CaseId = &quot;{!Case.Id}&quot;;
+var endURL = &apos;/knowledge/publishing/articleEdit.apexp?retURL=%2F&apos;+CaseId+&apos;&amp;sourceId=&apos;+CaseId+&apos;&amp;sfdc.override=1&amp;type=Knowledge_Article__kav&apos;;
+
+if(sforce.console.isInConsole()) 
+{
+  srcUp(endURL); 
+} 
+else 
+{
+  window.open(endURL);
+}</url>
+    </webLinks>
+</CustomObject>
