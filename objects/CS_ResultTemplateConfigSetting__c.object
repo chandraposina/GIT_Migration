@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>List Custom setting for the result template fields.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Class__c</fullName>
+        <defaultValue>&quot;coveo-kb-article-number&quot;</defaultValue>
+        <description>span element&apos;s class attribute for css</description>
+        <externalId>false</externalId>
+        <label>Class</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CoveoFieldName__c</fullName>
+        <defaultValue>&quot;sfkbarticlenumber&quot;</defaultValue>
+        <description>span elements coveo field name</description>
+        <externalId>false</externalId>
+        <label>CoveoFieldName</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>Span elements order.</description>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TextToDisplay__c</fullName>
+        <description>Text to be displayed in the span element</description>
+        <externalId>false</externalId>
+        <label>TextToDisplay</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <defaultValue>&quot;Knowledge Article&quot;</defaultValue>
+        <description>Type of the span element.</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CS_ResultTemplateConfigSetting</label>
+</CustomObject>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <customSettingsVisibility>Public</customSettingsVisibility>
+    <description>This will have Content type, Content Id Prefix Visibility settings etc</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>RawObjectURLFieldName__c</fullName>
+        <description>This has the field name for attached result URL name or ID</description>
+        <externalId>false</externalId>
+        <label>RawObjectURLFieldName</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>AX_AttachedResultSettings</label>
+</CustomObject>
